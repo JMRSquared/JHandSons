@@ -26,7 +26,7 @@ export default {
   data() {
     return {
       show: true,
-      cards: ["Designs", "Construction", "Projects", "About Us"],
+      cards: ["About","Designs", "Construction", "Projects"],
       msg: "Welcome to Your Vue.js App"
     };
   },

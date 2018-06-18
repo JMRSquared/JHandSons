@@ -1,9 +1,10 @@
 import Vue from "vue";
 import Router from "vue-router";
-import HelloWorld from "@/components/HelloWorld";
+import construction from "@/components/construction";
 import Home from "@/components/Home";
 import Designs from "@/components/Designs";
 import Projects from "@/components/Projects";
+import About from "@/components/About";
 
 Vue.use(Router);
 
@@ -25,9 +26,14 @@ export default new Router({
       component: Projects
     },
     {
-      path: "/hellow",
-      name: "HelloWorld",
-      component: HelloWorld
+      path: "/construction",
+      name: "construction",
+      component: construction
+    },
+    {
+      path: "/About",
+      name: "About",
+      component:About
     }
   ]
 });
